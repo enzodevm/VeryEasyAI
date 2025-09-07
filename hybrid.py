@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from .nn import IntentNN
 from .search import web_search
 from .knowledge import knowledge_base
